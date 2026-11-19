@@ -1,0 +1,19 @@
+# build output
+main.js
+*.js.map
+
+# deps
+node_modules/
+
+# obsidian
+.obsidian/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# local test vault (never commit your real vault)
+test-vault/

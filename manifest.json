@@ -1,0 +1,10 @@
+{
+  "id": "agent-memory",
+  "name": "Agent Memory",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Keep your AI agent's long-term memory in Obsidian: auto-generate the topic index, monitor the injected context budget, and check memory health.",
+  "author": "kldcg",
+  "authorUrl": "https://github.com/kldcg",
+  "isDesktopOnly": true
+}

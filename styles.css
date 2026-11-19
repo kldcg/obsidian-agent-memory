@@ -1,0 +1,51 @@
+/* status bar */
+.agent-memory-status {
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85em;
+}
+.agent-memory-status.am-ok {
+  color: var(--text-muted);
+}
+.agent-memory-status.am-warn {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+.agent-memory-status.am-over {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+/* health modal */
+.agent-memory-health-modal .agent-memory-issue {
+  border-left: 3px solid var(--background-modifier-border);
+  padding: 8px 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  background: var(--background-secondary);
+}
+.agent-memory-issue.am-error {
+  border-left-color: var(--color-red);
+}
+.agent-memory-issue.am-warn {
+  border-left-color: var(--color-orange);
+}
+.agent-memory-issue.am-info {
+  border-left-color: var(--color-blue);
+}
+.agent-memory-issue-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.agent-memory-issue-detail {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* settings */
+.agent-memory-wide-input {
+  width: 100%;
+  min-width: 320px;
+}
